@@ -9,12 +9,13 @@ public class vector1{
         vec.addElement("E");
         vec.addElement(" ");
         vec.addElement("U");
-        System.out.println("vetors: "+ vec);
-        System.out.println("Size vetors: "+ vec.size());
-        System.out.println("Frist element vetors: "+ vec.firstElement());
-        System.out.println("Last element vetors: "+ vec.lastElement());
-        System.out.println("2nd index element vetors: "+ vec.elementAt(2));
-        System.out.println("remove element vectors: "+ vec.removeElement(2));
+        System.out.println("vectors: "+ vec);
+        System.out.println("Size vectors: "+ vec.size());
+        System.out.println("Frist element vectors: "+ vec.firstElement());
+        System.out.println("Last element vectors: "+ vec.lastElement());
+        System.out.println("2nd index element vectors: "+ vec.elementAt(2));
+        vec.removeElementAt(2);
+        System.out.println("result vectors: "+ vec);
     }
 
 

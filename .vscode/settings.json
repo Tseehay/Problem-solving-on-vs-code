@@ -1,3 +1,8 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "editor.fontSize": 10,
+    "debug.console.fontSize": 10,
+    "terminal.integrated.fontSize": 10,
+    "chat.editor.fontSize": 10,
+    "markdown.preview.fontSize": 10
 }

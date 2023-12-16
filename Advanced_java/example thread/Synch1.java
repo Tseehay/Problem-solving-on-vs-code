@@ -32,7 +32,7 @@ t.printTable(100);
 }  
 }  
   
-public class TestSynchronization1{  
+public class Synch1{  
 public static void main(String args[]){  
 Table obj = new Table();//only one object  
 MyThread_1 t1=new MyThread_1(obj);  

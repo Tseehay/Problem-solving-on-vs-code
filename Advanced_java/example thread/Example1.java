@@ -4,8 +4,8 @@ class Task1 implements Runnable{
     }
 
 
-public static void main(String args[]){
-Thread t1 =new Thread(new Task1());
-t1.start();
- }
+public static void main(String[] args) {
+    Thread t= new Thread(new Task1());
+    t.start();
+}
 }

@@ -1,11 +1,11 @@
-class Task1 implements Runnable{
+class Task implements Runnable{
     public void run(){
-        System.out.println("\n Threading is Running");
-    }
-
+        System.out.println("thread is running");
+    } 
 
 public static void main(String[] args) {
-    Thread t= new Thread(new Task1());
+    Thread t= new Thread(new Task());
     t.start();
 }
+
 }

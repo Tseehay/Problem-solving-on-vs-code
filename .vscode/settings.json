@@ -4,5 +4,21 @@
     "debug.console.fontSize": 10,
     "terminal.integrated.fontSize": 10,
     "chat.editor.fontSize": 10,
-    "markdown.preview.fontSize": 10
+    "markdown.preview.fontSize": 10,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "tse",
+            "username": "tsehay",
+            "database": "data",
+            "password": ""
+        }
+    ]
 }

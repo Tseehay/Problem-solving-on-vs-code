@@ -14,11 +14,11 @@
             "previewLimit": 50,
             "server": "localhost",
             "port": 3306,
-            "driver": "MySQL",
-            "name": "tse",
-            "username": "tsehay",
-            "database": "data",
-            "password": ""
+            "driver": "MariaDB",
+            "name": "first",
+            "database": "data_base",
+            "username": "tse",
+            "password": "wall"
         }
     ]
 }

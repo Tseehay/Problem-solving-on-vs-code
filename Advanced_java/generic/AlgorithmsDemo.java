@@ -1,33 +1,30 @@
 import java.util.LinkedList;
+import java.util.Iterator;
+import java.util.Collections;
+import java.util.Comparator;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
-
-public class AlgorithmsDemo() {
+public class AlgorithmsDemo {
     public static void main(String[] args) {
     
         LinkedList ll =new LinkedList();
         ll.add(new Integer(-8));
         ll.add(new Integer(20));
 
-        Comparator r= collections.reverseOrder();
-        collections.sort(ll,r);
+        Comparator r= Collections.reverseOrder();
+        Collections.sort(ll,r);
 
         Iterator itr= ll.iterator();
         while(itr.hasNext()){
             System.out.println(itr.next()+" ");
         }
 
-        collections.shuffle(ll);
+        Collections.shuffle(ll);
 
         itr=ll.iterator();
         while(itr.hasNext()){
             System.out.println(itr.next()+" ");
 
         }
-        System.out.println(collections.mins(ll));
+        System.out.println(Collections.min(ll));
     }
-
-    
 }
-
-

@@ -1,7 +1,7 @@
     import java.sql.*; 
     import javax.sql.rowset.*; 
       
-    public class RowSetEx{  
+    public class Example9{  
             public static void main(String[] args) throws Exception {  
                 
                try

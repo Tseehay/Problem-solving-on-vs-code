@@ -16,9 +16,9 @@
             "port": 3306,
             "driver": "MariaDB",
             "name": "first",
-            "database": "data_base",
-            "username": "tse",
-            "password": "wall"
+            "database": "mydatabase",
+            "username": "eva",
+            "password": "but"
         }
     ]
 }

@@ -1,7 +1,7 @@
 
 import java.sql.*;  
 
-class JDatabase
+class Example11
 {  
 public static void main(String args[]){  
 try{  

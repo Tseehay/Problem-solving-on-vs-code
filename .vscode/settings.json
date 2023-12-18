@@ -15,10 +15,10 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MariaDB",
-            "name": "first",
-            "database": "mydatabase",
-            "username": "eva",
-            "password": "but"
+            "name": "first@localhost",
+            "database": "data",
+            "username": "tse",
+            "password": "eva"
         }
     ]
 }

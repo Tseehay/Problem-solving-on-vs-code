@@ -1,12 +1,11 @@
-n = int(input())
+n=int(input())
 pages=[int(x) for x in input().split()]
 
-remain = n
-count= 1
+count=1
 
-while remain> 0:
-    remain -= pages[count - 1]
-    if remain <= 0:
+while n>0:
+    n-=pages[count-1]
+    if n<=0:
         break
     count = (count % 7) + 1
 

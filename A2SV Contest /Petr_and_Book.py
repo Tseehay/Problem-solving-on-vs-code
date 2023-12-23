@@ -1,6 +1,5 @@
 n=int(input())
 pages=[int(x) for x in input().split()]
-
 count=1
 
 while n>0:

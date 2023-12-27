@@ -7,6 +7,7 @@ def divide_apples(n, weights):
     count_200 = weights.count(200)
     count_100 = weights.count(100)
 
+
     for i in range(count_200 + 1):
         weight = i * 200
         remaining_weight = half_weight - weight

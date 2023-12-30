@@ -5,9 +5,12 @@ from django.http import HttpResponse
 # requset handler
 # action 
 
-def say_hello(request):
+
     # pull data from db
     # transfform
     # send email
     # return HttpResponse('Hello World')
-    return render(request,'hello.html') 
+def say_hello(request):
+    x=1
+    y=2
+    return render(request,'hello.html', {'name':'tse'})   

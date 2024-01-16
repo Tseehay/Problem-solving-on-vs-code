@@ -1,0 +1,10 @@
+for mmachine learing needs library:
+    1. Numpy
+    2. Pandas
+    3. MatplotLib
+    4. Scikit-learn
+
+use tools:
+    *. jupyter
+    *. 
+
